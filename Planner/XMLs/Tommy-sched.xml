@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<schedule id="Tommy"><event>
+                <name>Relax</name>
+                <time>
+                        <start-day>Sunday</start-day>
+                        <start>0</start>
+                        <end-day>Sunday</end-day>
+                        <end>200</end>
+                </time>
+                <location>
+                        <online>false</online>
+                        <place>Davenport A</place>
+                </location>
+                <users>
+                        <uid>Dylan</uid>
+                        <uid>Jake</uid>
+                        <uid>Tommy</uid>
+                        <uid>Meena</uid>
+                </users>
+        </event></schedule>

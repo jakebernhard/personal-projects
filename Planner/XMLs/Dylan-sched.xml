@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<schedule id="Dylan"><event>
+                <name>Relax</name>
+                <time>
+                        <start-day>Sunday</start-day>
+                        <start>0</start>
+                        <end-day>Sunday</end-day>
+                        <end>200</end>
+                </time>
+                <location>
+                        <online>false</online>
+                        <place>Davenport A</place>
+                </location>
+                <users>
+                        <uid>Dylan</uid>
+                        <uid>Jake</uid>
+                        <uid>Tommy</uid>
+                        <uid>Meena</uid>
+                </users>
+        </event><event>
+                <name>Work</name>
+                <time>
+                        <start-day>Monday</start-day>
+                        <start>900</start>
+                        <end-day>Monday</end-day>
+                        <end>1700</end>
+                </time>
+                <location>
+                        <online>false</online>
+                        <place>Upper Mass</place>
+                </location>
+                <users>
+                        <uid>Dylan</uid>
+                </users>
+        </event></schedule>

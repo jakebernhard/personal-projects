@@ -1,0 +1,24 @@
+Unfortunately, I was not able to complete my controller implementation, meaning I was not able to
+implement fully their view with my controller. However, I was still able to review their code and
+believe it is very good. Starting with their model, they have a decent amount of differences
+compared to the strategy we took. For one, their Day class takes in a numerical value for
+representing the total time of the events. We took a similar approach however, ours was in a method
+within the event class that takes in our Day enum. I think their way is very efficient. The second
+and perhaps the most major difference between our models is their lack of a singular Schedule class
+or interface. In our model we created a Schedule class that was then used in our planner system
+implementation which is built upon a list of schedules. It seems instead that in their
+implementation, they used a map of name to list of events to represent a list of the schedules.
+They also did not directly have a modify method within their interface, instead having methods
+for altering specific parts of an event, i.e, startDay, isOnline, etc.
+
+For their view, there seems to be a good amount of differences between the two of our
+implementations. A major difference I see is that they split up the event
+frame into different panels being the day panel, location panel, time panel, etc. While I think it
+helps with organization, I personally like the way in which we implemented the event panel better
+as I believe it is easier to work with.
+
+The only main critique I have which is not really a critique since I do not know how their
+implementation works for their model is that I think having a schedule class/interface helps
+with organization and making code easier to understand; however, I could be incorrect.
+
+

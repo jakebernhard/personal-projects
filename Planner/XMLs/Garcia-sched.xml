@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<schedule id="Garcia"><event>
+                <name>Nothing</name>
+                <time>
+                        <start-day>Sunday</start-day>
+                        <start>0</start>
+                        <end-day>Saturday</end-day>
+                        <end>2359</end>
+                </time>
+                <location>
+                        <online>false</online>
+                        <place>House</place>
+                </location>
+                <users>
+                        <uid>Garcia</uid>
+                </users>
+        </event></schedule>
