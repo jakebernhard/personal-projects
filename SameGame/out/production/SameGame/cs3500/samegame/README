@@ -1,0 +1,11 @@
+I made one small change from feedback on my prior assignment which was to add a try and catch block
+in the playGame methods in the SameGameTextController class to throw a specific error when the game
+cannot be started. As for the changes I made with the addition of Gravity and AutoMatch same games,
+I abstracted the totality of my original FourPieceSameGame class to an abstract class that is then
+extended by the three model classes. The original swap, removeMatch, and startGames are changed
+to protected helpers to allow for different methods to be called following their calling in
+different classes. For examples, gravity being applied after a swap is made. Since
+FourPieceSameGame implements the four methods by just calling the helpers, I did not create
+tests for the protected helpers since they are being tested in my tests for FourPieceSameGame
+and I would be testing the same code multiple times. The new functionality of both Gravity and
+AutoMatch are tested in their respective examples classes.
