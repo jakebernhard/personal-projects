@@ -1,0 +1,7 @@
+After reviewing their code. I wished we did what they did with their day class. I believe that
+having the numerical value stored would've made our code a lot more convenient and easy to work
+with. Other than that I do not think there is many things I wish I did that they did (other than
+complete their controller implementation and refactor into features properly). Overall, although I
+did not fully implement my code, I can see exactly how much goes into working with previously
+designed code and refactoring it to work within your code. It was also very interesting to see
+the differences between our code and theirs and I was even able to get some ideas from it.

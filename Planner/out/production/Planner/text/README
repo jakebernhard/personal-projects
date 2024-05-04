@@ -1,0 +1,23 @@
+Changes for part 2
+
+The refactoring of our original code from part 1 in preparation of building the GUI can be split up
+into two parts.
+
+For one, we created a new read-only model interface called ReadOnlyNUPlanner which only contains
+two methods, both being observation methods. One returning a copy of the list of schedules and the
+other returning the list of user names. The ReadOnlyPlannerModel class implements this interface
+and takes in two constructors, either a list of schedules or a NUPlanner. The original NUPlanner
+now extends from this ReadOnlyNUPlanner interface.
+
+The second change we made comes from the checklist where we added new constructors to our
+plannermodel class to allow for the creation of the a planner that takes in either a list of files
+or a list of schedules. The constructor that takes in a list of schedules has a boolean flag
+"test" since it will most likely only be used for testing. The list of files constructor uses
+a reader to read in the xml files to the database.
+
+Changes for part 3
+
+Unfortunately I was not able to get much done, finished all of assignment 6 pretty much with a new
+screenshot showing how that was completed. I created behavior for all buttons and the ability
+to for events to be seen on the planner. The event and file frames are accessed by pressing buttons
+on the planner panel, the event panel prints details of the removed/created events.
