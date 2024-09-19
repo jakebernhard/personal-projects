@@ -134,6 +134,7 @@ main {
   left: 50%;
   font-size: 5rem;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 @media (min-width: 45rem) {
